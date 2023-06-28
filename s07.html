@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <table border="1">
+        <!-- thead/tbody는 없어도 된다. tr은 row th는 head, td -->
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th>나이</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>홍길동</td>
+                <td rowspan="2">15세</td>
+            </tr>
+            <tr>
+                <td>박진희</td>
+            </tr>
+            <tr>
+                <!-- colspan = 컬럼 n개를 차지해라! -->
+                <td colspan="2">엄준식</td>
+            </tr>
+        </tbody>
+    </table>
+
+  </body>
+</html>
